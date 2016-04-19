@@ -1,0 +1,139 @@
+body {
+	background-color: #777;
+}
+
+.box1 {
+    width: 100%;
+    height: 220px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    z-index: 9999;
+}
+
+header.carousel {
+    height: 30%;
+}
+
+.carousel-caption,
+.page-header {
+	display: none;
+}
+
+div.col-md-4.col-sm-6 {
+	padding: 0px;
+}
+
+div.box1 {
+	border-color: #6b0103;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 15px;
+}
+
+.effect1 {
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    -webkit-transition: all 0.1s ease-in 0.6s;
+    -moz-transition: all 0.1s ease-in 0.6s;
+    -o-transition: all 0.1s ease-in 0.6s;
+    -ms-transition: all 0.1s ease-in 0.6s;
+    transition: all 0.1s ease-in 0.6s;
+    border-color: #6b0103;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 10px;
+
+}
+
+.effect1:hover {
+	opacity: 100;
+	border-color: #6b0103;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 10px;
+}
+
+.box1 .effect1, .box1 .content1 {
+    width: 100%;
+    height: 220px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+}
+
+.box1 .box-content1 {
+    font-size: 14px;
+    position: relative;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.box-effect1 h3 {
+    -webkit-transition: all 0.2s ease-in-out 0.1s;
+    -moz-transition: all 0.2s ease-in-out 0.1s;
+    -o-transition: all 0.2s ease-in-out 0.1s;
+    -ms-transition: all 0.2s ease-in-out 0.1s;
+    transition: all 0.2s ease-in-out 0.1s;
+}
+
+.box1 h3 {
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 19px;
+    padding: 5px;
+    margin: 10px;
+}
+
+/* Radial In */
+.hvr-radial-in {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.7);
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+}
+.hvr-radial-in:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /*background-image: url("../images/oleLidegran.jpg");*/
+  background-repeat: no-repeat;
+  border-radius: 100%;
+  -webkit-transform: scale(2);
+  transform: scale(2);
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-radial-in:hover, .hvr-radial-in:focus, .hvr-radial-in:active {
+  color: #FCF8E3;
+}
+.hvr-radial-in:hover:before, .hvr-radial-in:focus:before, .hvr-radial-in:active:before {
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+
+.ole:before {
+	background-image: url("../images/oleLidegran.jpg");
+}
