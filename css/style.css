@@ -114,11 +114,10 @@ div.box1 {
   left: 0;
   right: 0;
   bottom: 0;
-  /*background-image: url("../images/oleLidegran.jpg");*/
   background-repeat: no-repeat;
   border-radius: 100%;
-  -webkit-transform: scale(2);
-  transform: scale(2);
+  -webkit-transform: scale(1);
+  transform: scale(1);
   -webkit-transition-property: transform;
   transition-property: transform;
   -webkit-transition-duration: 0.8s;
@@ -137,3 +136,29 @@ div.box1 {
 .ole:before {
 	background-image: url("../images/oleLidegran.jpg");
 }
+.anette:before {
+  background-image: url("../images/anettePersdotter.jpg");
+}
+.chris:before {
+  background-image: url("../images/chrisOttenbark.jpg");
+}
+.elisabeth:before {
+  background-image: url("../images/elisabethWelander.jpg");
+}
+.hans:before {
+  background-image: url("../images/hansSjoblom.jpg");
+}
+.lilleSvensken:before {
+  background-image: url("../images/lilleSvensken.jpg");
+}
+.pia:before {
+  background-image: url("../images/piaThomee.jpg");
+}
+.rolf:before {
+  background-image: url("../images/rolfLindahl.jpg");
+}
+.susanne:before {
+  background-image: url("../images/susanneFranzen.jpg");
+}
+
+
