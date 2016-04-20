@@ -121,6 +121,18 @@ div.box1 {
     margin: 10px;
 }
 
+footer {
+  margin-top: 25px;
+}
+
+.cons261 {
+    float: right;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #6B0103;
+    border-width: 3px;
+}
+
 /* Radial In */
 .hvr-radial-in {
   display: inline-block;
