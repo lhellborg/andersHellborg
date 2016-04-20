@@ -30,6 +30,16 @@ div.col-md-4.col-sm-6 {
     margin: auto;
 }
 
+.header-text {
+    font-size: 130px;
+    font-family: fantasy;
+    text-align: center;
+    height: 100%;
+    vertical-align: middle;
+    text-shadow: 3px 3px #BF6643;
+    padding-top: 30px;
+}
+
 @media (max-width: 950px) {
   .main {
     max-width: 600px;
@@ -41,6 +51,10 @@ div.col-md-4.col-sm-6 {
   div.col-md-4.col-sm-6 {
     max-width: 300px;
     margin: auto;
+  }
+  .header-text {
+    font-size: 65px;
+    text-shadow: 1px 1px #BF6643;
   }
 }
 
