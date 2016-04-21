@@ -12,7 +12,10 @@ body {
 }
 
 header.carousel {
-    height: 30%;
+    height: 28vh;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
 }
 
 .carousel-caption,
@@ -28,6 +31,7 @@ div.col-md-4.col-sm-6 {
 .main {
     max-width: 900px;
     margin: auto;
+    margin-top: 28vh;
 }
 
 .header-text {
@@ -44,6 +48,7 @@ div.col-md-4.col-sm-6 {
   .main {
     max-width: 600px;
     margin: auto;
+    margin-top: 28vh;
   }
 }
 
