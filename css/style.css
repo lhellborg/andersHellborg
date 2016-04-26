@@ -101,12 +101,8 @@ div.box1 {
     top: 0;
 }
 
-.box1 .box-content1 {
-    font-size: 14px;
-    position: relative;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
+div.alot {
+  font-size: 11px;
 }
 
 .box-effect1 h3 {
@@ -212,5 +208,10 @@ footer {
 .sofie:before {
   background-image: url("../images/sofieJohansson.jpg");
 }
-
+.ake:before {
+  background-image: url("../images/akeRoslund.jpg");
+}
+.KI:before {
+  background-image: url("../images/KIArthursson.jpg");
+}
 
