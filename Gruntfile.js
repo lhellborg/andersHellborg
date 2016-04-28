@@ -80,7 +80,8 @@ module.exports = function (grunt) {
             width: 100
           }, {
             name: "large",
-            width: 320,
+            width: 300,
+            height: 300,
             // suffix: "_x2"
             // quality: 60
           }]

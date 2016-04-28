@@ -217,4 +217,10 @@ footer {
 .torill:before {
   background-image: url("../images/torillVale.jpg");
 }
-
+.lennart:before {
+  background-image: url("../images/lennartMassback.jpg");
+}
+.alla:before {
+  background-image: url("../images/alla.jpg");
+  background-position: center;
+}
