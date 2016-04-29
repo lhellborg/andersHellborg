@@ -161,6 +161,7 @@ footer {
   right: 0;
   bottom: 0;
   background-repeat: no-repeat;
+  background-position: center;
   -webkit-transform: scale(1);
   transform: scale(1);
   -webkit-transition-property: transform;
@@ -176,6 +177,10 @@ footer {
 .hvr-radial-in:hover:before, .hvr-radial-in:focus:before, .hvr-radial-in:active:before {
   -webkit-transform: scale(0);
   transform: scale(0);
+}
+
+button {
+  background-color: rgba(0, 0, 0, 0.48);
 }
 
 .ole:before {
@@ -212,13 +217,21 @@ footer {
   background-image: url("../images/akeRoslund.jpg");
 }
 .KI:before {
-  background-image: url("../images/KIArthursson.jpg");
+  background-image: url("../images/arthursson.jpg");
+  background-size: cover;
 }
 .torill:before {
   background-image: url("../images/torillVale.jpg");
 }
 .lennart:before {
   background-image: url("../images/lennartMassback.jpg");
+}
+.jenny:before {
+  background-image: url("../images/jennyEjlertsson.jpg");
+}
+.margareta:before {
+  background-image: url("../images/margaretaSjoblom.jpg");
+  background-size: cover;
 }
 .alla:before {
   background-image: url("../images/alla.jpg");
