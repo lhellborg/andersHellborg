@@ -12,7 +12,7 @@ body {
 }
 
 header.carousel {
-    height: 28vh;
+    height: 30vh;
     position: fixed;
     width: 100%;
     z-index: 2;
@@ -31,7 +31,7 @@ div.col-md-4.col-sm-6 {
 .main {
     max-width: 900px;
     margin: auto;
-    margin-top: 28vh;
+    margin-top: 30vh;
 }
 
 .header-text {
@@ -177,6 +177,39 @@ footer {
 .hvr-radial-in:hover:before, .hvr-radial-in:focus:before, .hvr-radial-in:active:before {
   -webkit-transform: scale(0);
   transform: scale(0);
+}
+
+#sang {
+    font-size: large;
+    font-family: fantasy;
+    margin: auto;
+    border-style: groove;
+    border-radius: 10px;
+    padding: 30px;
+    border-width: thin;
+    color: darkblue;
+    background-color: lightslategray;
+    max-width: 330px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: -25px;
+}
+
+#akeText {
+    font-size: large;
+    font-family: cursive;
+    margin: auto;
+    border-style: groove;
+    border-radius: 10px;
+    padding: 30px;
+    border-width: medium;
+    color: darkred;
+    background-color: silver;
+    max-width: 700px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    margin-top: -25px;
 }
 
 button {
