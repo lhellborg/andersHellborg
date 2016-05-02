@@ -262,6 +262,12 @@ button {
 .jenny:before {
   background-image: url("../images/jennyEjlertsson.jpg");
 }
+.kim:before {
+  background-image: url("../images/kimNydal.jpg");
+}
+.yvonne:before {
+  background-image: url("../images/yvonneLiss.jpg");
+}
 .margareta:before {
   background-image: url("../images/margaretaSjoblom.jpg");
   background-size: cover;
